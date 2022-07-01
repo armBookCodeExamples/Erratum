@@ -9,7 +9,7 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 Dotted square does not indicate the appropriate part of the signal and the text is incorrect.  
 The figure should be as follows:
 
-<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Figure%206-21.png" width="400">
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Figure%206-21.png" width="300">
 
 ---
 
@@ -62,5 +62,25 @@ Should be replaced by:
 The figure should be as follows:
 
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Figure%206-24.png" width="800">
+
+---
+
+### Figure 6.26
+
+The figure should be as follows:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Figure%206-26.png" width="800">
+
+---
+
+### Text before Figure 6.33
+
+The following text:
+
+> Finally, it should be noted that, unlike the I2C bus, the SPI bus does not have a start **bit**, a stop **bit**, or an ACK bit.
+
+Should be replaced by:
+
+> Finally, it should be noted that, unlike the I2C bus, the SPI bus does not have a start **condition**, a stop **condition**, or an ACK bit.. 
 
 ---
