@@ -8,6 +8,6 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 
 The text should be:
 
-> Details of the implementation of the ble_com.cpp.
+> Details of the implementation of the file ble_com.cpp.
 
 ---
