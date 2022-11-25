@@ -12,6 +12,6 @@ Due to Keil Studio Cloud change from "Import Project" to "Clone" that was made a
 
 Should be replaced by:
 
-> First, the reader must copy the URL of the repository of the “Subsection 1.2.3” program that is available in [10]. Then, in the “File” menu of Keil Studio Cloud, select **“Clone”**. **The “Clone” window will be displayed in the web browser. Paste the URL of the repository of the “Subsection 1.2.3” program in the URL field, enter the name “subsection_1-2-3” in the "Project name" field, select "Make this the active project" and press “Add project”,** and a new project named “Subsection 1.2.3” will be added to the list of available projects as the active project.
+> First, the reader must copy the URL of the repository of the “Subsection 1.2.3” program that is available in [10]. Then, in the “File” menu of Keil Studio Cloud, select **“Clone”**. **The “Clone” window will be displayed in the web browser. Paste the URL of the repository of the “Subsection 1.2.3” program in the "URL" field, enter the name “subsection_1-2-3” in the "Project name" field, select "Make this the active project" and press “Add project”,** and a new project named “Subsection 1.2.3” will be added to the list of available projects as the active project.
 
 ---
