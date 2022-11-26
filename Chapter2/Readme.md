@@ -7,9 +7,11 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 ### 2.3 Under the Hood 
 
 After the book was printed we realized that the reader would benefit if more insight on serial communications protocols based on UARTs is provided in this section.
-The following content should be read after reading the TIP that states:
+The added content below should be read after reading the TIP that states:
 
 > TIP: Sequences like the one shown in Figure 2.13 can be seen each time the NUCLEO board and the PC exchange messages by means of connecting an oscilloscope or a logic analyzer to the pins Tx and Rx of CN5, as shown in Figure 2.14. It is not explained here how to use oscilloscopes and logic analyzers because that topic is beyond the scope of this book.
+
+### Content added:
 
 The signal shown in Figure 2.14 has the voltage levels introduced in Figure 2.13 (i.e., high 3.3 volts and low 0 volts). However, if the signal is used to connect modules that not very close to each other, these voltage levels are quite low and prone to suffer electromagnetic interference. Therefore in many applications the RS-232 (Recommended Standard 232) is used. 
 
