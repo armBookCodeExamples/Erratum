@@ -15,7 +15,7 @@ The content added (see below) should be read after reading the TIP that states:
 
 The signal shown in Figure 2.14 has the voltage levels introduced in Figure 2.13 (i.e., high 3.3 volts and low 0 volts). However, if the signal is used to connect modules that not very close to each other, these voltage levels are quite low and prone to suffer electromagnetic interference. Therefore in many applications the RS-232 (Recommended Standard 232) is used. 
 
-The RS-232 defines not only the Transmitted Data (TxD), Received Data (RxD) and Ground signals, but also a set of up to nine additional signals that are used in some implementations: Data Terminal Ready, Data Carrier Detect, Data Set Ready, Ring Indicator, Request To Send, Clear To Send, Transmitted Data, Received Data and Protective Ground. However, in most modern applications only the TxD and signals of RS-232 are used.
+The RS-232 defines not only the Transmitted Data (TxD), Received Data (RxD) and Ground (GND) signals, but also a set of up to nine additional signals that are used in some implementations: Data Terminal Ready, Data Carrier Detect, Data Set Ready, Ring Indicator, Request To Send, Clear To Send, Transmitted Data, Received Data and Protective Ground. However, in most modern applications only the TxD, RxD and GND signals of RS-232 are used.
 
 The typical RS-232 logic and voltage levels are as shown in Table 2.6. These higher voltages in comparison with 3.3 volts and 0 volts results in higher tolerance to electromagnetic interference.
 
