@@ -28,7 +28,7 @@ The typical RS-232 logic and voltage levels are as shown in Table 2.6. These hig
 
 There are modules that can be used to adapt the 3.3 volts and 0 volts levels signal to the RS-232 standard voltage levels. Most of these modules are based on the MAX232 integrated circuit.
 
-In some cases a larger distance should be cover in electrically noisy environments and many devices interconnected using as few cables as possible. In those scenarios the RS-485 standard can be used by means of modules based for example in the MAX485 integrated circuit. RS-485 has only two signals, namely A and B. In RS-485 the logic states 0 and 1 are signaled by means of imposing a differential voltage between signals A and B, as shown in Table 2.7. The differential voltage between A and B should be at least of 1.5 V.
+In some cases a larger distance should be cover in electrically noisy environments and many devices interconnected using as few cables as possible. In those scenarios the RS-485 standard can be used by means of modules based for example in the MAX485 integrated circuit. RS-485 has only two signals, namely A and B, and does not have a ground signal. In RS-485 the logic states 0 and 1 are signaled by means of setting a differential voltage between signals A and B, as shown in Table 2.7. The differential voltage between A and B should be at least of 1.5 V.
 
 **Table 2.7 RS-485 logic and voltage levels**
 
