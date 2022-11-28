@@ -15,7 +15,7 @@ The content added (see below) should be read after reading the TIP that states:
 
 The signal shown in Figure 2.14 has the voltage levels introduced in Figure 2.13 (i.e., high 3.3 volts and low 0 volts). However, if the signal is used to connect modules that not very close to each other, these voltage levels are quite low and prone to suffer electromagnetic interference. Therefore in many applications the RS-232 (Recommended Standard 232) is used. 
 
-The RS-232 defines not only the Transmitted Data (TxD) and Received Data (RxD) signals, but also a set of up to nine additional signals that are used in some implementations: Data Terminal Ready, Data Carrier Detect, Data Set Ready, Ring Indicator, Request To Send, Clear To Send, Transmitted Data, Received Data and Protective Ground. However, in most modern applications only the TxD and signals of RS-232 are used.
+The RS-232 defines not only the Transmitted Data (TxD), Received Data (RxD) and Ground signals, but also a set of up to nine additional signals that are used in some implementations: Data Terminal Ready, Data Carrier Detect, Data Set Ready, Ring Indicator, Request To Send, Clear To Send, Transmitted Data, Received Data and Protective Ground. However, in most modern applications only the TxD and signals of RS-232 are used.
 
 The typical RS-232 logic and voltage levels are as shown in Table 2.6. These higher voltages in comparison with 3.3 volts and 0 volts results in higher tolerance to electromagnetic interference.
 
@@ -28,7 +28,7 @@ The typical RS-232 logic and voltage levels are as shown in Table 2.6. These hig
 
 There are modules that can be used to adapt the 3.3 volts and 0 volts levels signal to the RS-232 standard voltage levels. Most of these modules are based on the MAX232 integrated circuit.
 
-In some cases a larger distance should be cover in electrically noisy environments and many devices interconnected using as few cables as possible. In those scenarios the RS-485 standard can be used by means of modules based for example in the MAX485 integrated circuit. RS-485 has only two signals, namely A and B, and does not have a ground signal. In RS-485 the logic states 0 and 1 are signaled by means of setting a differential voltage between signals A and B, as shown in Table 2.7. The differential voltage between A and B should be at least of 1.5 V.
+In some cases a larger distance should be covered in electrically noisy environments and many devices interconnected using as few cables as possible. In those scenarios the RS-485 standard can be used by means of modules based for example in the MAX485 integrated circuit. RS-485 has only two signals, namely A and B, and does not have a ground signal. In RS-485 the logic states 0 and 1 are signaled by means of setting a differential voltage between signals A and B, as shown in Table 2.7. The differential voltage between A and B should be at least 1.5 V.
 
 **Table 2.7 RS-485 logic and voltage levels**
 
