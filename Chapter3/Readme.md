@@ -20,13 +20,21 @@ Should be replaced by:
 
 The following text:
 
-> #define NUMBER_OF_AVG_SAMPLES 10
+> #define NUMBER_OF_AVG_SAMPLES **10**
 
 Should be replaced by:
 
-> #define NUMBER_OF_AVG_SAMPLES 100
+> #define NUMBER_OF_AVG_SAMPLES **100**
 
-Also, the following text should be removed from Table 3.16, because this variable is declared in *alarmActivationUpdate()*:
+And the text:
+
+> NUMBER_OF_AVG_SAMPLES has been defined as **10**
+
+Should be replaced by:
+
+> NUMBER_OF_AVG_SAMPLES has been defined as **100**
+
+Also, the following text should be removed from Table 3.16, because *lm35SampleIndex* is declared in *alarmActivationUpdate()* (see the errata regarding "Text before Code 3.11" below):
 
 > int lm35SampleIndex = 0;
 
