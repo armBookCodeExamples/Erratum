@@ -22,7 +22,7 @@ Should be replaced by:
 > In Code 3.11, the new implementation of alarmActivationUpdate() is shown, with the following
 modified lines:
 > - The lines regarding the potentiometer were all removed (lines 3 to 10 of Code 3.7).
-> - **no está explicado el uso de "static" en la línea 3 del Code 3.11** 
+> - **Lines 3 and 4: the variables *lm35SampleIndex* and *i* are declared and initialized. Notice that the reserved word *static* indicates**
 > - Variables declared as static inside a function (as in Code 5.29 and Table 6.14) are local variables that retain their values as explained,
 > - Lines 6 to 17: the calculation of the temperature is implemented. The analog input is read and
 stored in the current position of the lm35ReadingsArray on line 6. The index is incremented (line
