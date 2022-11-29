@@ -71,4 +71,4 @@ lm35TempC is obtained (line 17).
 
 The text should be:
 
-> Implementation of the main() function.
+> Implementation of the *main()* function.
