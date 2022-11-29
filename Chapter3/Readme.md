@@ -4,6 +4,34 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 
 ---
 
+### Table 3.5
+
+The following text:
+
+> accumulatedTime
+
+Should be replaced by:
+
+> accumulatedTimeAlarm
+
+---
+
+### Table 3.16
+
+The following text:
+
+> #define NUMBER_OF_AVG_SAMPLES 10
+
+Should be replaced by:
+
+> #define NUMBER_OF_AVG_SAMPLES 100
+
+Also, the following text should be removed from Table 3.16, because this variable is declared in *alarmActivationUpdate()*:
+
+> int lm35SampleIndex = 0;
+
+---
+
 ### Text before Code 3.11
 
 The following text:
@@ -31,48 +59,8 @@ lm35TempC is obtained (line 17).
 
 ---
 
-### Text after Code 3.11
-
-The following note:
-
-> "This issue lasts for only one second and is addressed in the Proposed Exercise of this example."
-
-Should be replaced by:
-
-> "This issue lasts for only 0,1 seconds and is addressed in the Proposed Exercise of this example."
-
-This time is calculated considering:
-- the line *delay(TIME_INCREMENT_MS)* in *main()*
-- the line #define TIME_INCREMENT_MS 10
-- the line #define NUMBER_OF_AVG_SAMPLES 10. 
-In this way, it takes about 0,1 seconds until all of the positions of *lm35ReadingsArray* are written at least once and therefore the first valid result of *lm35ReadingsAverage* can be calculated.
-
----
-
 ### Caption of Code 3.18
 
 The text should be:
 
 > Implementation of the main() function.
-
----
-
-### Table 3.5
-
-The following text:
-
-> accumulatedTime
-
-Should be replaced by:
-
-> accumulatedTimeAlarm
-
----
-
-### Table 3.16
-
-The following text:
-
-> int lm35SampleIndex = 0;
-
-Should be removed, because this variable is declared in *alarmActivationUpdate()*
