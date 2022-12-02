@@ -1,6 +1,7 @@
 ## Chapter 3 Erratum
 
 The following comments refer to the file [arm-designing-embedded-system-application-v2.pdf](https://armkeil.blob.core.windows.net/developer/Files/pdf/ebook/arm-designing-embedded-system-application-v2.pdf)
+
 ---
 
 ### Example 3.1 - Discussion of the Proposed Solution
