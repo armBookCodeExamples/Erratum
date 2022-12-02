@@ -43,9 +43,7 @@ In line 21 the word "false" should be in green color.
 
 ### Code 5.19: Implementation of pcSerialComStringWrite()
 
-It can be argued that the implementation of the function *pcSerialComStringWrite()* is prone to unexpected behaviors.
-
-This is due to the fact that *pcSerialComStringWrite()* is a public function and given its implementation any other module that uses this function might write any message in the serial monitor without any control of the pcSerialCom module. In this way these messages might interfere with other messages that are written in the serial monitor, leading to messages coming from different modules to be printed in an unexpected order in the serial monitor, resulting in an confuse set of messages for the user.
+It can be argued that the implementation of the function *pcSerialComStringWrite()* is prone to unexpected behaviors. This is due to the fact that *pcSerialComStringWrite()* is a public function and given its implementation any other module that uses this function might write any message in the serial monitor without any control of the pcSerialCom module. In this way these messages might interfere with other messages that are written in the serial monitor, leading to messages coming from different modules to be printed in an unexpected order in the serial monitor, resulting in an confuse set of messages for the user.
 
 On the other hand, this implementation of *pcSerialComStringWrite()* noticeably simplifies the implementation of the pcSerialCom module and the usage of this function in particular. For this reason this implementation is not considered an error, but a simplification.
 
