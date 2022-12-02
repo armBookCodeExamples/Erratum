@@ -17,19 +17,6 @@ However, this bold line is missing in the tables. This bold line should be for e
 
 ---
 
-### Table 5.7 and Table 5.12
-
-In the text before Table 5.3 it is stated
-
-> It is important to note that in Tables 5.2 to 5.13, there is a bold line to separate functions that are
-called by other modules from functions that are used only within the module itself.
-
-However, this bold line is missing in the tables. This bold line should be for example as follows:
-
-<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter5/Table%205-3.png" width="600">
-
----
-
 ### Caption of Table 5.7 and Table 5.12
 
 Instead of:
