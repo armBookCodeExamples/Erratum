@@ -12,7 +12,10 @@ In the step "Discussion of the Proposed Solution" of Example 3.1 it is stated:
 function is based on the Mbed OS thread_sleep_for() function and pauses the execution of the program,
 causing a delay
 
-Although there is no error in doing it this way, this can be tackled in a simpler way by means of using the Mbed OS function *wait_ms()* [[Mbed OS Reference | wait_api functions](https://os.mbed.com/docs/mbed-os/v6.15/feature-i2c-doxy/group__platform__wait__api.html)]. At the time of writing the book we chosed not to use *wait_ms()* and decided to use an implementation based on *thread_sleep_for()* because we read in a forum that *wait_ms()* might be deprecated soon. However *wait_ms()* was never deprecated and now we regret not having used *wait_ms()* because that choice would have led to a more straightforward and simpler implementation.
+Although there is no error in doing it this way, many times it leads to confusion, because for the sake of simplicity the topic of threads is not included in the book. Sometimes people ask why not to tackle this delay in a simpler way by means of using the Mbed OS function *wait_ms()* [[Mbed OS Reference | wait_api functions](https://os.mbed.com/docs/mbed-os/v6.15/feature-i2c-doxy/group__platform__wait__api.html)]. The reason is that in the abovementioned Mbed OS Reference on wait_api functions it is stated:
+
+> **Deprecated:**
+> 'wait_ms' is deprecated in favor of explicit sleep functions. To sleep, 'wait_ms' should be replaced by 'ThisThread::sleep_for' (C++) or 'thread_sleep_for' (C). If you wish to wait (without sleeping), call 'wait_us'. 'wait_us' is safe to call from ISR context.
 
 ---
 
