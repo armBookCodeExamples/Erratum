@@ -4,6 +4,29 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 
 ---
 
+### Code 6.13
+
+The following code:
+
+> 1 void displayStringWrite( const char* str )           <br />
+> 2 {                                                    <br />
+> 3     while (*str) {                                   <br />
+> 4         displayCodeWrite(DISPLAY_RS_DATA, *str++);   <br />
+> 5         str++;                                       <br />
+> 6     }                                                <br />
+> 7 }                                                    <br />
+
+Should be replaced by:
+
+> 1 void displayStringWrite( const char* str )
+> 2 {
+> 3     while (*str) {
+> 4         displayCodeWrite(DISPLAY_RS_DATA, *str++);
+> 5     }
+> 6 }
+
+---
+
 ### Figure 6.21
 
 Dotted square does not indicate the appropriate part of the signal and the text is incorrect.  
