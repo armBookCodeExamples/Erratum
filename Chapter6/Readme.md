@@ -16,6 +16,15 @@ Should be replaced by:
 
 It is also worth mentioning that on line 4 the expression *str++ is treated as *(str++) as the precedence of postfix ++ is higher than *.
 
+
+---
+
+### Table 6.5
+
+The caption states "Address reference of the PCF8574 module. The addresses used in the proposed setup are highlighted." but the highlight is missing. It should be in the following way:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Table%206-5.png" width="500">
+
 ---
 
 ### Figure 6.21
