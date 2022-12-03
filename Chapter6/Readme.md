@@ -8,11 +8,11 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 
 The following code:
 
-<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Code%206-13%20original.png" width="600">
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Code%206-13%20original.png" width="400">
 
 Should be replaced by:
 
-<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Code%206-13%20new.png" width="600">
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Code%206-13%20new.png" width="400">
 ---
 
 ### Figure 6.21
