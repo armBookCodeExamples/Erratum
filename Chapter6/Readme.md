@@ -23,7 +23,7 @@ It is also worth mentioning that on line 4 the expression *str++ is treated as *
 
 The caption states "Address reference of the PCF8574 module. The addresses used in the proposed setup are highlighted." but the highlight is missing. It should be in the following way:
 
-<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Table%206-5.png" width="500">
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Table%206-5.png" width="400">
 
 ---
 
