@@ -121,3 +121,9 @@ Should be replaced by:
 Given that the signal is named Subordinate Select (see Table 6.8). However, in many integrated circuits the pin that is connected to the signal Subordinate Select is labeled as "CS" (Chip Select) so it make sense to use the name "SPI1_CS" in the definition.
 
 ---
+
+### Code 6.41 and Code 6.45
+
+An image is missing of "Intruder Detected" and "Report page". It will be soon added here. (internal reference: page 111)
+
+---
