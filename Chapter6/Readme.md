@@ -13,6 +13,9 @@ The following code:
 Should be replaced by:
 
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Code%206-13%20new.png" width="400">
+
+It is also worth mentioning that on line 4 the expression *str++ is treated as *(str++) as the precedence of postfix ++ is higher than *.
+
 ---
 
 ### Figure 6.21
