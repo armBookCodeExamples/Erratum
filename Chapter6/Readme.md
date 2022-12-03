@@ -104,6 +104,20 @@ The following text:
 
 Should be replaced by:
 
-> Finally, it should be noted that, unlike the I2C bus, the SPI bus does not have a start **condition**, a stop **condition**, or an ACK bit.. 
+> Finally, it should be noted that, unlike the I2C bus, the SPI bus does not have a start **condition**, a stop **condition**, or an ACK bit.
+
+---
+
+### Code 6.31
+
+It can be argued that:
+
+> #define SPI1_CS PD_14
+
+Should be replaced by:
+
+> #define SPI1_SS PD_14
+
+Given that the signal is named Subordinate Select (see Table 6.8). However, in many integrated circuits the pin that is connected to the signal Subordinate Select is labeled as "CS" (Chip Select) so it make sense to use the name "SPI1_CS" in the definition.
 
 ---
