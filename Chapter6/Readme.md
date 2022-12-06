@@ -124,6 +124,6 @@ Given that the signal is named Subordinate Select (see Table 6.8). However, in m
 
 ### Code 6.41 and Code 6.45
 
-An image is missing of "Intruder Detected" and "Report page". It will be soon added here. (internal reference: page 111)
+An image is missing of "Report page" in the graphic display. It will be soon added here. (internal reference: page 111)
 
 ---
