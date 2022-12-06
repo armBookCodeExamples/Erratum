@@ -45,3 +45,13 @@ Code 7.18 is already explained using Figure 7.11 and the text in pages 322 to 32
 An image is missing of "Intruder Detected". It will be soon added here. (internal reference: page 72)
 
 ---
+
+### Table 7.24
+
+The following line
+
+> #include "GLCD_clear_screen.h"
+
+Is not correct, because the variable *uint8_t GLCD_ClearScreen[1024]* is defined in *modules/display/GLCD_fire_alarm.h*
+
+---
