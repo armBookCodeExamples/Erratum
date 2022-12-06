@@ -33,3 +33,15 @@ It would have been nice to include in the book the following diagram to illustra
 Notice that this FSM is implemented from Code 7.9 to Code 7.12. Also notice that *gateOpenButton* and *gateCloseButton* belong to the *user_interface* module, while *gateOpenLimitSwitch* and *gateCloseLimitSwitch* belong to the *gate* module.
 
 ---
+
+### Code 7.18
+
+Code 7.18 is already explained using Figure 7.11 and the text in pages 322 to 324, however a more detailed explanation will be included here soon.
+
+---
+
+### Code 7.32
+
+An image is missing of "Intruder Detected". It will be soon added here. (internal reference: page 72)
+
+---
