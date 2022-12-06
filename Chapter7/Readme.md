@@ -18,6 +18,18 @@ The text should be:
 
 ### Code 7.3 - FSM
 
-It would be nice to have included in the book the following diagram to ilustrate the FSM implemented in Code 7.3:
+It would have been nice to include in the book the following diagram to illustrate the FSM implemented in Code 7.3:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter7/FSM%20Code%207-3.png" width="600">
+
+---
+
+### Example 7.2 - FSM
+
+It would have been nice to include in the book the following diagram to illustrate the FSM implemented in Example 7.2:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter7/FSM%20Code%207-12.png" width="600">
+
+Notice that this FSM is implemented from Code 7.9 to Code 7.12. Also notice that *gateOpenButton* and *gateCloseButton* belong to the *user_interface* module, while *gateOpenLimitSwitch* and *gateCloseLimitSwitch* belong to the *gate* module.
 
 ---
