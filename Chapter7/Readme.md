@@ -15,3 +15,9 @@ The text should be:
 > "Figure 7.1 The smart home system is now connected to a PIR sensor, a motor, four buttons and two LEDs"
 
 ---
+
+### Code 7.3 - FSM
+
+It would be nice to have included in the book the following diagram to ilustrate the FSM implemented in Code 7.3:
+
+---
