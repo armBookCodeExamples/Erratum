@@ -6,7 +6,7 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 
 ### Figure 8.5
 
-We noticed that some readers get confused about the following note on Figure 8.5:
+We noticed that some readers get confused about the following note about Figure 8.5:
 
 > NOTE: In Figure 8.5 it can be seen that PB_4, PA_0, and PD_12 are associated with
 PWM3/1, PWM2/1, and PWM4/1, respectively, which means PWM timer 3/channel
