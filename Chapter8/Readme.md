@@ -14,6 +14,6 @@ PWM3/1, PWM2/1, and PWM4/1, respectively, which means PWM timer 3/channel
 different PWM timer, it is possible to control their intensities independently, as will be
 shown in the examples below
 
-It should be noticed that the four lines in Figure 8.5 do not indicate PB_4, PA_0, and PD_12 but the correspondence of CN7, CN8, CN9 and CN10.
+The four lines in Figure 8.5 do not indicate PB_4, PA_0, and PD_12 but the correspondence of CN7, CN8, CN9 and CN10.
 
 ---
