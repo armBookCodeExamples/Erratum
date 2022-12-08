@@ -31,3 +31,17 @@ It is pending for revision if it is okay to have included line 24 in the for loo
 This implementation does imply an error, but *eventsStored* is assigned *true* many times, what might be considered suboptimal.
 
 ---
+
+### Code 9.6
+
+It can be argued that line 22:
+
+> #define **SPI3_CS** PA_4_ALT0
+
+Should have been defined as:
+
+> #define **SPI3_SS** PA_4_ALT0
+
+The rationale would be that the SPI signal is named "Subordinate Select" and not "Chip Select". However, very often the corresponding pin of the SD card module is labeled as "CS", so it makes sense to use SPI3_CS.
+
+---
