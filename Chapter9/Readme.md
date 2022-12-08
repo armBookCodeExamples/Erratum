@@ -45,3 +45,17 @@ Should have been defined as:
 The rationale would be that the SPI signal is named "Subordinate Select" and not "Chip Select". However, very often the corresponding pin of the SD card module is labeled as "CS", so it makes sense to use SPI3_CS.
 
 ---
+
+### Code 9.13
+
+The corresponding explanation states:
+
+> Then, the list of files in the directory is retrieved by means of *readdir()* on line 10 and stored in sdCardDirectoryEntryPointer.
+
+However, this is not correct, becasue *readdir()* on line 10 retrieves a pointer to one file, not the complete list of files in the directory.
+
+In more technical words:
+
+> The *readdir()* function shall return a pointer to a structure representing the directory entry at the current position in the directory stream specified by the argument dirp, and position the directory stream at the next entry. It shall return a null pointer upon reaching the end of the directory stream.
+
+---
