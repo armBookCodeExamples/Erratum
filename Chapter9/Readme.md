@@ -21,3 +21,13 @@ Should be replaced by:
 > Introduce the usage of filesystems.
 
 ---
+
+### Code 9.4
+
+It is pending for revision if it is okay to have included line 24 in the for loop:
+
+> eventsStored = true;
+
+This implementation does imply an error, but *eventsStored* is assigned *true* many times, what might be considered suboptimal.
+
+---
