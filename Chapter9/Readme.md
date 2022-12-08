@@ -8,6 +8,8 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 
 In the table there is an extra blank space before PC_12, PC_10 and PC_11. This is just a typo and there is no reason for this blank space.
 
+Also, the second column label should be "SD card module" instead of "SD card".
+
 ---
 
 ### Example 9.1 - Objective
