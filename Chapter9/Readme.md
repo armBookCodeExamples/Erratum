@@ -61,3 +61,18 @@ In more technical words:
 > The *readdir()* function shall return a pointer to a structure representing the directory entry at the current position in the directory stream specified by the argument dirp, and position the directory stream at the next entry. It shall return a null pointer upon reaching the end of the directory stream.
 
 ---
+
+Pending items to be considered in a future:
+
+- "Cerrar algo"
+- ¿por qué usamos SD y no usamos memoria no volatl?
+- Agregar link a documentación de los tres ,h de mbed que usamos
+- ver pines alternativos Code 9.6 en linea 22
+- Quizas cambiar nombres en lineas 26 y 28 de Code 9.6
+- Chequear si Code 9.4 es tal como lo muestro
+- En el Warning de la pag 30 agregar posibilidad de que la SD está llena
+- En Proposed Exercise del 9.2 retocar para corregir el código.
+- Ver si cambio naranja por blanco en la Code 9.13
+- Usar otro color para filesNamesBuffer en Code 9.13
+- Revisar mejor Diapo 52 Code 9.17
+- Ver correo "Notas sobre FAT32 - Max File size y Max Drive Size"
