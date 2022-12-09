@@ -42,7 +42,9 @@ Code 7.18 is already explained using Figure 7.11 and the text in pages 322 to 32
 
 ### Code 7.32
 
-An image is missing of "Intruder Detected". It will be soon added here. (internal reference: page 72)
+An image is missing of the "Intruder Detected" screen. It is shown here for reference:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter7/IntruderDetectedScreen.png" width="400">
 
 ---
 
