@@ -54,6 +54,6 @@ The following line
 
 > #include "GLCD_clear_screen.h"
 
-Is not correct, because the variable *uint8_t GLCD_ClearScreen[1024]* is defined in *modules/display/GLCD_fire_alarm.h*
+Is not correct (should be removed from the table), because the variable *uint8_t GLCD_ClearScreen[1024]* is defined in *modules/display/GLCD_fire_alarm.h*
 
 ---
