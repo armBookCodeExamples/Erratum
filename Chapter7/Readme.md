@@ -48,6 +48,16 @@ An image is missing of the "Intruder Detected" screen. It is shown here for refe
 
 ---
 
+### Intruder detected image improved
+
+An improved image of the "Intruder Detected" screen can be obtained using the following file: <a href="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter7/IntruderDetectedScreenImproved.h">IntruderDetectedScreenImproved.h</a>
+
+It is shown here for reference:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter7/IntruderDetectedScreenImproved.jpeg" width="400">
+
+---
+
 ### Table 7.24
 
 The following line
