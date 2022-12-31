@@ -124,6 +124,8 @@ Given that the signal is named Subordinate Select (see Table 6.8). However, in m
 
 ### Code 6.41 and Code 6.45
 
-An image is missing of "Report page" in the graphic display. It will be soon added here. (internal reference: page 111)
+An image is missing in the book of "Report page" in the graphic display. The figure should be as follows:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Figure%206-xx%20-%20GLCD%20text%20Temp,%20gas%20and%20alarm.png" width="400">
 
 ---
