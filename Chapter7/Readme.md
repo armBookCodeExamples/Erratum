@@ -44,7 +44,7 @@ Code 7.18 is already explained using Figure 7.11 and the text in pages 322 to 32
 
 An image is missing of the "Intruder Detected" screen. It is shown here for reference:
 
-<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter7/IntruderDetectedScreen.png" width="400">
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter7/Figure%207-xx%20-%20Intruder%20detected%20bmp%20text.png" width="400">
 
 ---
 
@@ -54,7 +54,7 @@ An improved image of the "Intruder Detected" screen can be obtained using the fo
 
 It is shown here for reference:
 
-<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter7/IntruderDetectedScreenImproved.jpeg" width="400">
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter7/Figure%207-xx%20-%20Intruder%20detected%20bmp%20picture.png" width="400">
 
 ---
 
