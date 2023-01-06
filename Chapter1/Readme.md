@@ -16,6 +16,14 @@ Should be replaced by:
 
 ---
 
+### Code 1.2
+
+There is an else missing on line 18. The code should be as follows:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Code1-2.png" width="500">
+
+---
+
 ### Comment regarding Code 1.3
 
 It is worthy to mention that line 27 of Code 1.3:
