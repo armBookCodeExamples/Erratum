@@ -38,7 +38,7 @@ And it is also the same as:
 
 ### Code 1.2
 
-There is an else missing on line 18. The code should be as follows:
+In the textbook there is an else missing on line 18. The code should be as follows:
 
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Code1-2.png" width="600">
 
