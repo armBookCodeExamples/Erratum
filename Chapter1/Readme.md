@@ -40,6 +40,6 @@ And it is also the same as:
 
 There is an else missing on line 18. The code should be as follows:
 
-<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Code1-2.png" width="500">
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Code1-2.png" width="600">
 
 ---
