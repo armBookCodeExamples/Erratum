@@ -16,26 +16,30 @@ Should be replaced by:
 
 ---
 
+### Comment regarding Code 1.1
+
+It is worthy to mention that line 15 of Code 1.1:
+
+> **15**  if ( gasDetector == ON ) {
+
+Is the same as:
+
+> **15**  if ( gasDetector.read() == true ) {
+
+And it is also the same as:
+
+> **15**  if ( gasDetector.read() ) {
+
+And it is also the same as:
+
+> **15**  if ( gasDetector ) {
+
+---
+
 ### Code 1.2
 
 There is an else missing on line 18. The code should be as follows:
 
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Code1-2.png" width="500">
-
----
-
-### Comment regarding Code 1.3
-
-It is worthy to mention that line 27 of Code 1.3:
-
-> **27**  if ( alarmOffButton ) {
-
-Is the same as:
-
-> **27**  if ( alarmOffButton.read() ) {
-
-And it is also the same as:
-
-> **27**  if ( alarmOffButton.read() == true ) {
 
 ---
