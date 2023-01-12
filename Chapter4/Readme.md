@@ -23,7 +23,7 @@ In Code 4.4 there is a bug. It can be seen by means of following the next steps:
 1. Turn on the Alarm by pressing the button connected to D2.
 2. Turn off the Alarm by pressing in the keypad "A", next "B" and by last "#".
 3. Turn on the Alarm by pressing the button connected to D2.
-4. Press only the key "#". The alarm will turn off, even not code had been entered.
+4. Press only the key "#". The alarm will turn off, even though no code has been entered.
  
 This issue will be fixed in a new version of this chapter to be published soon here.
 
