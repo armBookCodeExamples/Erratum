@@ -29,6 +29,19 @@ This issue will be fixed in a new version of this chapter to be published soon h
 
 ---
 
+### Code 4.8
+
+In Code 4.8 there is a bug. It can be seen by means of following the next steps:
+
+1. Turn on the Alarm by pressing the BUTTON1 button.
+2. Turn off the Alarm by entering in the keypad “1”, “8”, “0”, “5”' and by last "#".
+3. Turn on the Alarm by pressing the BUTTON1 button.
+4. Press only the key "#". The alarm will turn off, even though no code has been entered.
+
+This issue will be fixed in a new version of this chapter to be published soon here.
+
+---
+
 ### Code 4.9
 
 In the following section:
