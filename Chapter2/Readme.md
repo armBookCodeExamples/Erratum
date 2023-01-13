@@ -4,6 +4,15 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 
 ---
 
+### Code 2.16
+
+The implementation of the command "4" accepts a code even if the alarm is not active. 
+To avoid accepting a code if the alarm is not active, Code 2.16 can be modified as follows:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Code2-16.png" width="400">
+
+---
+
 ### 2.3 Under the Hood 
 
 After the book was printed we realized that the reader would benefit if more insight on serial communications protocols based on UARTs is provided in this section.
