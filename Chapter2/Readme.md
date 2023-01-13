@@ -9,7 +9,7 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 The implementation of the command "4" accepts a code even if the alarm is not active. 
 To avoid accepting a code if the alarm is not active, Code 2.16 can be modified as follows:
 
-<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Code2-16-Improved.png" width="400">
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Code2-16-Improved.png" width="600">
 
 ---
 
