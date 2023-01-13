@@ -6,10 +6,12 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 
 ### Code 2.16
 
-The implementation of the command "4" accepts a code even if the alarm is not active. 
+The implementation of the command "4" accepts a code even if the alarm is not active.
 To avoid accepting a code if the alarm is not active, Code 2.16 can be modified as follows:
 
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Code2-16-Improved.png" width="600">
+
+Notice that if five incorrect codes are entered then the System Blocked LED will turn on and then system can be unblocked only by means of reseting the NUCLEO board or by using this command "4" to enter the correct code. In this scenario if the command "4" is used and the correct code is entered then the System Blocked LED will not be turned off by the current version of the code.
 
 ---
 
