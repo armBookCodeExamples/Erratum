@@ -16,7 +16,7 @@ These changes among others are available on the [Chapter 4 - New Version.pdf](ht
 
 **It is strongly recommended to read this new version of Chapter 4 instead of reading the version available in the published textbook.**
 
-The projects of the Examples of this new version are avaiable here:
+The projects of the Examples of this new version are available here:
 
 - https://github.com/armBookCodeExamples/example_4-1-new/
 - https://github.com/armBookCodeExamples/example_4-2-new/
@@ -35,6 +35,14 @@ Should be added also in:
 
 > Function inputsInit()
 
+This issue is fixed in the new version of this chapter that is now available (see above).
+
+---
+
+### Code 4.3
+
+There are some inconsistencies between Code 4.3 and Figure 4.6, Figure 4.8 and Figure 4.9. The new version of Chapter 4 that is now available (see above) is free of this inconsistencies. 
+
 ---
 
 ### Code 4.4
@@ -46,7 +54,7 @@ In Code 4.4 there is a bug. It can be seen by means of following the next steps:
 3. Turn on the Alarm by pressing the button connected to D2.
 4. Press only the key "#". The alarm will turn off, even though no code has been entered.
  
-This issue will be fixed in a new version of this chapter to be published soon here.
+This issue is fixed in the new version of this chapter that is now available (see above).
 
 ---
 
@@ -59,7 +67,7 @@ In Code 4.8 there is a bug. It can be seen by means of following the next steps:
 3. Turn on the Alarm by pressing the BUTTON1 button.
 4. Press only the key "#". The alarm will turn off, even though no code has been entered.
 
-This issue will be fixed in a new version of this chapter to be published soon here.
+This issue is fixed in the new version of this chapter that is now available (see above).
 
 ---
 
@@ -81,7 +89,7 @@ In the following section:
 >     break;
 
 Is missing to write the values of *receivedChar* into the array *codeSequence*. 
-This issue will be fixed in a new version of this chapter to be published soon here.
+This issue is fixed in the new version of this chapter that is now available (see above).
 
 ---
 
@@ -96,6 +104,7 @@ It should say:
 > accumulatedDebounceTime **<** DEBOUNCE_BUTTON_TIME_MS
 
 The same is valid for the arrow that goes from BUTTON_FALLING again into BUTTON_FALLING.
+This issue is fixed in the new version of this chapter that is now available (see above).
 
 ---
 
@@ -108,3 +117,5 @@ Over the arrow that goes from MATRIX_KEYPAD_DEBOUNCE again into MATRIX_KEYPAD_DE
 It should say:
 
 > accumulatedDebounceMatrixKeyapadTime **<** DEBOUNCE_BUTTON_TIME_MS
+
+This issue is fixed in the new version of this chapter that is now available (see above).
