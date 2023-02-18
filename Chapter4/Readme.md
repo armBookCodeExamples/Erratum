@@ -4,6 +4,27 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 
 ---
 
+### New version of Chapter 4
+
+After publishing the textbook some relevant improvements were made to Chapter 4, for example:
+
+- It was decided to remove the buttons from the breadboard at once, instead of gradually removing them along the chapter. In this way the code becomes easier to understand.
+- The explanation of Finite-states Machines (FSMs) diagrams was moved from the Under the Hood section to Example 4.1 and 4.2, to better explain the code of those examples.
+- The debugging capability of the Keil Studio Cloud, included in Keil Studio Cloud after publishing the textbook, was explained in the Under the Hood section.
+
+These changes among others are available on the [Chapter 4 - New Version.pdf](https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter4/Chapter-4-New-Version.pdf) file.
+
+**It is strongly recommended to read this new version of Chapter 4 instead of reading the version available in the published textbook.**
+
+The projects of the Examples of this new version are avaiable here:
+
+- https://github.com/armBookCodeExamples/example_4-1-new/
+- https://github.com/armBookCodeExamples/example_4-2-new/
+- https://github.com/armBookCodeExamples/example_4-3-new/
+- https://github.com/armBookCodeExamples/example_4-4-new/
+
+---
+
 ### Table 4.2
 
 The following text:
