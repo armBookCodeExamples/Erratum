@@ -88,7 +88,7 @@ In the following section:
 >     uartUsb.write( "\r\nNew code generated\r\n\r\n", 24 );
 >     break;
 
-Is missing to write the values of *receivedChar* into the array *codeSequence*. 
+Is missing code to write the values of *receivedChar* into the array *codeSequence*. 
 This issue is fixed in the new version of this chapter that is now available (see above).
 
 ---
