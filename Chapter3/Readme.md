@@ -84,7 +84,7 @@ lm35TempC is obtained (line 17).
 
 ### New version of Example 3.5
 
-In the original version of Example 3.5 the main reason for using a DigitalInOut object to control the sirenPin is because in this way it is not necessary to use a transistor to drive the buzzer. However, we noticed that many times it is not clear for the reader how the DigitalInOut object is used to control the buzzer. Moreover, it can be argued that the appropriate way to drive a 5 V buzzer with a 3.3 V GPIO pin is by means of a transistor. For this reason the following circuit can be used to drive the transistor. This is actually discussed in Chapter 5, where Figure 5.6 is introduced:
+In the original version of Example 3.5 the main reason for using a DigitalInOut object to control the sirenPin is because in this way it is not necessary to use a transistor to drive the buzzer. However, we noticed that many times it is not clear for the reader how the DigitalInOut object is used to control the buzzer. Moreover, it can be argued that the appropriate way to drive a 5 V buzzer with a 3.3 V GPIO pin is by means of a transistor. For this reason the following circuit can be used to drive the transistor, as discussed in Chapter 5, where Figure 5.6 is introduced:
 
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter3/Figure5-6.png" width="600">
 
