@@ -88,7 +88,10 @@ In the original version of Example 3.5 the main reason for using a DigitalInOut 
 
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter3/Figure5-6.png" width="600">
 
-In the circuit shown in Figure 5.6, the buzzer is turned on when 3.3 V is asserted in PE_10 and is turned off when 0 V is asserted in PE_10. As a consequence, the code should be modified if this circuit is used. The modified code is available here:
+In the circuit shown in Figure 5.6, the buzzer is turned on when 3.3 V is asserted in PE_10 because there is a positive voltage between the base (B) of the transistor and the emitter (E). This positive voltage means current can flow from collector (C) to E of the transistor. The buzzer is turned off when 0 V is asserted in PE_10 and current can no longer flow from C to E. 
+
+As a consequence, the code should be modified if this circuit is used.
+The modified code is available here:
 
 - https://github.com/armBookCodeExamples/example_3-5-new/
 
@@ -98,7 +101,7 @@ The changes made to the main.cpp file are as follows:
 
 > DigitalInOut sirenPin(PE_10);
 
-Was replaced by:
+was replaced by:
 
 > DigitalOut sirenPin(PE_10);
 
@@ -116,7 +119,7 @@ Was replaced by:
 > sirenPin.output();                                     
 > sirenPin = LOW; 
 
-Were replaced by:
+were replaced by:
 
 > sirenPin = ON;
 
@@ -124,18 +127,18 @@ Were replaced by:
 
 > sirenPin.input();                                     
 
-Was replaced by:
+was replaced by:
 
 > sirenPin = OFF; 
  
 In this way:
-1. Is used to declare sirenPin as a DigitalOut object
-2. Is not initialized sirenPin as an input, because it is an output.
-3. Is used to initialize sirenPin as OFF, so the buzzer is turned off.
-4. Is used to set sirenPin to ON, so the buzzer is turned on.
-5. Is used to set sirenPin to OFF, so the buzzer is turned off.
+1. sirenPin is declared as a DigitalOut object
+2. sirenPin is not initialized as an input, because it is an output.
+3. sirenPin is initialized as OFF, so the buzzer is turned off.
+4. sirenPin is set to to ON, so the buzzer is turned on.
+5. sirenPin is set to OFF, so the buzzer is turned off.
 
-This new version of the program code of Example 3.5 has the advantage that the buzzer can be toggled bewteen on and off very easily, by means of:
+This new version of the program code of Example 3.5 has the advantage that the buzzer can be toggled between on and off very easily, by means of:
 
 > sirenPin = !sirenPin;
 
@@ -145,7 +148,7 @@ In the same way as alarmLed is toggled in alarmActivationUpdate() between on and
 
 in order to make the Alarm LED to blink. 
 
-This toggled between on and off in the sirenPin that can easily be obtained might be used to get a "beep! beep!" sound from the buzzer instead of the "beeeeeep" sound that is obtained in the program code of Example 3-5. For this purpose the line sirenPin = !sirenPin; can be added along with every occurrence of the line alarmLed = !alarmLed;.
+This toggle between on and off in the sirenPin might be used to get a "beep! beep!" sound from the buzzer instead of the "beeeeeep" sound that is obtained in the program code of Example 3-5. For this purpose the line sirenPin = !sirenPin; can be added along with every occurrence of the line alarmLed = !alarmLed;.
 
 ---
 
