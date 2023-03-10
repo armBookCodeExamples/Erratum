@@ -82,6 +82,60 @@ lm35TempC is obtained (line 17).
 
 ---
 
+### New version of Example 3.5
+
+In the original version of Example 3.5 the main reason for using a DigitalInOut object to control the sirenPin is because in this way it is not necessary to use a transistor to drive the buzzer. However, we noticed that many times it is not clear for the reader how the DigitalInOut object is used to control the buzzer. Moreover, it can be argued that the appropriate way to drive a 5 V buzzer with a 3.3 V GPIO pin is by means of a transistor. For this reason the following circuit can be used to drive the transistor. This is actually discussed in Chapter 5, where Figure 5.6 is introduced:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter3/Figure5-6.png" width="600">
+
+In the circuit shown in Figure 5.6, the buzzer is turned on when 3.3 V is asserted in PE_10 and is turned off when 0 V is asserted in PE_10. As a consequence, the code should be modified if this circuit is used. The modified code is available here:
+
+- https://github.com/armBookCodeExamples/example_3-5-new/
+
+The changes made to the main.cpp file are as follows:
+
+1. The following declaration:
+
+> DigitalInOut sirenPin(PE_10);
+
+Was replaced by:
+
+> DigitalOut sirenPin(PE_10);
+
+2. The following lines in inputsInit():
+
+> sirenPin.mode(OpenDrain);
+> sirenPin.input();
+
+Were replaced by:
+
+> sirenPin = LOW;
+
+3. The following lines in alarmActivationUpdate():
+
+> sirenPin.output();                                     
+> sirenPin = LOW; 
+
+Were replaced by:
+
+> sirenPin = HIGH;
+
+4. The following line in alarmActivationUpdate():
+
+> sirenPin.input();                                     
+
+Was replaced by:
+
+> sirenPin = LOW; 
+ 
+In this way:
+- 1. Is used to declare sirenPin as a DigitalOut object
+- 2. Is used to initialize sirenPin as LOW, so the buzzer is turned off.
+- 3. Is used to set sirenPin to HIGH, so the buzzer is turned on.
+- 4. Is used to set sirenPin to LOW, so the buzzer is turned off.
+
+---
+
 ### Caption of Code 3.18
 
 The text should be:
