@@ -135,6 +135,18 @@ In this way:
 4. Is used to set sirenPin to ON, so the buzzer is turned on.
 5. Is used to set sirenPin to OFF, so the buzzer is turned off.
 
+This new version of the program code of Example 3.5 has the advantage that the buzzer can be toggled bewteen on and off very easily, by means of:
+
+> sirenPin = !sirenPin;
+
+In the same way as alarmLed is toggled in alarmActivationUpdate() between on and off by means of:
+
+> alarmLed = !alarmLed;
+
+in order to make the Alarm LED to blink. 
+
+This toggled between on and off in the sirenPin that can easily be obtained might be used to get a "beep! beep!" sound from the buzzer instead of the "beeeeeep" sound that is obtained in the program code of Example 3-5. For this purpose the line sirenPin = !sirenPin; can be added along with every occurrence of the line alarmLed = !alarmLed;.
+
 ---
 
 ### Caption of Code 3.18
