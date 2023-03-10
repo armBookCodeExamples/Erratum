@@ -104,8 +104,8 @@ Was replaced by:
 
 2. The following lines in inputsInit():
 
-> sirenPin.mode(OpenDrain);
-> sirenPin.input();
+> sirenPin.mode(OpenDrain);  
+> sirenPin.input();  
 
 Were replaced by:
 
@@ -129,10 +129,10 @@ Was replaced by:
 > sirenPin = LOW; 
  
 In this way:
-- 1. Is used to declare sirenPin as a DigitalOut object
-- 2. Is used to initialize sirenPin as LOW, so the buzzer is turned off.
-- 3. Is used to set sirenPin to HIGH, so the buzzer is turned on.
-- 4. Is used to set sirenPin to LOW, so the buzzer is turned off.
+1. Is used to declare sirenPin as a DigitalOut object
+2. Is used to initialize sirenPin as LOW, so the buzzer is turned off.
+3. Is used to set sirenPin to HIGH, so the buzzer is turned on.
+4. Is used to set sirenPin to LOW, so the buzzer is turned off.
 
 ---
 
