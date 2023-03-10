@@ -132,7 +132,7 @@ was replaced by:
 > sirenPin = OFF; 
  
 In this way:
-1. sirenPin is declared as a DigitalOut object
+1. sirenPin is declared as a DigitalOut object.
 2. sirenPin is not initialized as an input, because it is an output.
 3. sirenPin is initialized as OFF, so the buzzer is turned off.
 4. sirenPin is set to to ON, so the buzzer is turned on.
