@@ -102,37 +102,38 @@ Was replaced by:
 
 > DigitalOut sirenPin(PE_10);
 
-2. The following lines in inputsInit():
+2. The following lines in inputsInit() were removed:
 
 > sirenPin.mode(OpenDrain);  
 > sirenPin.input();  
 
-Were replaced by:
+3. The following line was added in outputsInit():
 
-> sirenPin = LOW;
+> sirenPin = OFF;
 
-3. The following lines in alarmActivationUpdate():
+4. The following lines in alarmActivationUpdate():
 
 > sirenPin.output();                                     
 > sirenPin = LOW; 
 
 Were replaced by:
 
-> sirenPin = HIGH;
+> sirenPin = ON;
 
-4. The following line in alarmActivationUpdate():
+5. The following line in alarmActivationUpdate():
 
 > sirenPin.input();                                     
 
 Was replaced by:
 
-> sirenPin = LOW; 
+> sirenPin = OFF; 
  
 In this way:
 1. Is used to declare sirenPin as a DigitalOut object
-2. Is used to initialize sirenPin as LOW, so the buzzer is turned off.
-3. Is used to set sirenPin to HIGH, so the buzzer is turned on.
-4. Is used to set sirenPin to LOW, so the buzzer is turned off.
+2. Is not initialized sirenPin as an input, because it is an output.
+3. Is used to initialize sirenPin as OFF, so the buzzer is turned off.
+4. Is used to set sirenPin to ON, so the buzzer is turned on.
+5. Is used to set sirenPin to OFF, so the buzzer is turned off.
 
 ---
 
