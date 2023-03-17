@@ -15,6 +15,18 @@ Notice that if five incorrect codes are entered then the System Blocked LED will
 
 ---
 
+### Table 2.4
+
+The following text:
+
+> char codeSequence[NUMBER_OF_KEYS] = {'1','1','0','0'};
+
+Should be replaced by:
+
+> int codeSequence[NUMBER_OF_KEYS] = { 1, 1, 0, 0 };
+
+---
+
 ### 2.3 Under the Hood 
 
 After the book was printed we realized that the reader would benefit if more insight on serial communications protocols based on UARTs is provided in this section.
