@@ -27,6 +27,18 @@ Should be replaced by:
 
 ---
 
+### Table 2.5
+
+The following text:
+
+> char buttonsPressed[NUMBER_OF_KEYS] = {'0','0','0','0'};
+
+Should be replaced by:
+
+> int buttonsPressed[NUMBER_OF_KEYS] = { 0, 0, 0, 0 };
+
+---
+
 ### 2.3 Under the Hood 
 
 After the book was printed we realized that the reader would benefit if more insight on serial communications protocols based on UARTs is provided in this section.
