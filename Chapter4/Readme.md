@@ -108,7 +108,9 @@ This issue is fixed in the new version of this chapter that is now available (se
 In the following section:
 
 > case '5':
+> 
 >     uartUsb.write( "Please enter the new four digits numeric code ", 46 );
+>     
 >     uartUsb.write( "to deactivate the alarm: ", 25 );
 >     
 >     for ( keyBeingCompared = 0;
