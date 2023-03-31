@@ -39,6 +39,38 @@ This issue is fixed in the new version of this chapter that is now available (se
 
 ---
 
+### Table 4.3
+
+The following text:
+
+> typedef enum {
+> 
+> BUTTON_UP
+> 
+> BUTTON_FALLING
+> 
+> BUTTON_DOWN
+> 
+> BUTTON_RISING
+> 
+> } buttonState_t;
+
+Should be:
+
+> typedef enum {
+> 
+> BUTTON_UP,
+> 
+> BUTTON_FALLING,
+> 
+> BUTTON_DOWN,
+> 
+> BUTTON_RISING
+> 
+> } buttonState_t;
+
+---
+
 ### Code 4.3
 
 There are some inconsistencies between Code 4.3 and Figure 4.6, Figure 4.8 and Figure 4.9. The new version of Chapter 4 that is now available (see above) is free of this inconsistencies. 
@@ -93,6 +125,18 @@ This issue is fixed in the new version of this chapter that is now available (se
 
 ---
 
+### Example 4.4
+
+The following text:
+
+> The smart home system should store up to 20 events, 
+
+Should be:
+
+> The smart home system should store up to **100** events, 
+
+---
+
 ### Figure 4.9
 
 Over the arrow that goes from BUTTON_RISSING again into BUTTON_RISSING, where it says:
@@ -119,3 +163,9 @@ It should say:
 > accumulatedDebounceMatrixKeyapadTime **<** DEBOUNCE_BUTTON_TIME_MS
 
 This issue is fixed in the new version of this chapter that is now available (see above).
+
+---
+
+### 4.4 Case study
+
+There is a delay missing in Code 4.22. There should be a delay as in Code 4.14 (i.e. delay(TIME_INCREMENT_MS);) so the debounce can be properly implemented.
