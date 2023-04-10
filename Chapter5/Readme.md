@@ -69,6 +69,12 @@ In chapter 12 it is shown how to implement public functions in such a way that t
 
 ---
 
+### Code 5.19: Implementation of pcSerialComStringWrite()
+
+In Chapter 3 it has already been used the reserved word *static* on line 3 of Code 3.11 to indicate that the variable *lm35SampleIndex* retains its value between calls of *alarmActivationUpdate()*.
+
+---
+
 ### Figure 5.8
 
 It can be argued that for the sake of scalability it might be better to organize the files as shown in the following new version of Figure 5.8:
