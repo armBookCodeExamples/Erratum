@@ -41,6 +41,14 @@ In line 21 the word "false" should be in green color.
 
 ---
 
+### Code 5.19: FSM implemented in pcSerialComUpdate()
+
+It might be useful to illustrate the FSM that is implemented by means of *pcSerialComUpdate()* and some other functions in the *pc_serial_com* module:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter5/FSM%20Figure%20Code%205-19.jpg" width="500">
+
+---
+
 ### Code 5.19: Implementation of pcSerialComStringWrite()
 
 It can be argued that the implementation of the function *pcSerialComStringWrite()* is prone to unexpected behaviors. This is due to the fact that *pcSerialComStringWrite()* is a public function and given its implementation any other module that uses this function might write any message in the serial monitor without any control of the pcSerialCom module. In this way these messages might interfere with other messages that are written in the serial monitor, leading to messages coming from different modules to be printed in an unexpected order in the serial monitor, resulting in a confusing set of messages for the user.
