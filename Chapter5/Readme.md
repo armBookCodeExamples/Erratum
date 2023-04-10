@@ -47,7 +47,7 @@ The following line in *fireAlarmInit()* is not strictly necessary:
 
 > alarmTestButton.mode(PullDown); 
 
-as the Alarm Test Button is implemented by means of the B1 User button, and this button is already connected to an external pull-down resistor placed in the NUCLEO board, as explained in Example 1.3
+as the Alarm Test Button is implemented by means of the B1 User button, and this button is already connected to an external pull-down resistor placed in the NUCLEO board, as explained in Example 1.3.
 
 ---
 
