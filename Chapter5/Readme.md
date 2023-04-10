@@ -41,6 +41,16 @@ In line 21 the word "false" should be in green color.
 
 ---
 
+### Code 5.13
+
+The following line in *fireAlarmInit()* is not strictly necessary:
+
+> alarmTestButton.mode(PullDown); 
+
+as the Alarm Test Button is implemented by means of the B1 User button, and this button is already connected to an external pull-down resistor placed in the NUCLEO board, as explained in Example 1.3
+
+---
+
 ### Code 5.19: FSM implemented in pcSerialComUpdate()
 
 It might be useful to illustrate the FSM that is implemented by means of *pcSerialComUpdate()* and some other functions in the *pc_serial_com* module:
