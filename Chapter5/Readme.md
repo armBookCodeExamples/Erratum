@@ -50,3 +50,15 @@ On the other hand, this implementation of *pcSerialComStringWrite()* noticeably 
 In chapter 12 it is shown how to implement public functions in such a way that they do not directly interfere with the resources that are the responsibility of other modules (as it is in this case), but request the corresponding modules to implement some actions over those resources, delegating those modules the responsibility of handling those request properly.
 
 ---
+
+### Figure 5.8
+
+It can be argued that for the sake of scalability it might be better to organize the files as shown in the following new version of Figure 5.8:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter5/New%20Figure%205-8.png" width="800">
+
+This alternative organization proposed for the smart home system code is available [here](https://github.com/alutenberg/subsection_5-4-2)
+
+**Note**: This alternative organization works exactly the same way as the original organization, because Keil Studio Cloud do not care about folders organization.
+
+---
