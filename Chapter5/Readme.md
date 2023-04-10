@@ -55,7 +55,7 @@ In chapter 12 it is shown how to implement public functions in such a way that t
 
 It can be argued that for the sake of scalability it might be better to organize the files as shown in the following new version of Figure 5.8:
 
-<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter5/New%20Figure%205-8.png" width="800">
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter5/New%20Figure%205-8.jpg" width="700">
 
 This alternative organization proposed for the smart home system code is available [here](https://github.com/alutenberg/subsection_5-4-2)
 
