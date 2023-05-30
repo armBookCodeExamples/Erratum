@@ -1,6 +1,6 @@
 ## Chapter 6 Erratum
 
-The following comments refer to the file [arm-designing-embedded-system-application-on-cortex-m-v3.pdf](https://armkeil.blob.core.windows.net/developer/Files/pdf/ebook/arm-designing-embedded-system-application-on-cortex-m-v3.pdf)
+The following comments refer to the file [arm-designing-embedded-system-application-on-cortex-m.pdf](https://armkeil.blob.core.windows.net/developer/Files/pdf/ebook/arm-designing-embedded-system-application-cortex-m.pdf)
 
 ---
 
