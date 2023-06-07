@@ -38,6 +38,37 @@ Should be replaced by:
 
 ---
 
+### 1.2.3 Getting Ready to Program the First Implementation of the Smart Home System
+
+In order to be able to save the changes you made to programs in Keil Studio Cloud you should have a [Github](https://github.com/) account and follow these steps:
+
+##### 1) Open in the [Directory](https://github.com/armBookCodeExamples/Directory/blob/main/README.md) the repository of the example you want to work with and select "Create a new fork".
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Step1.jpg" width="50%">
+
+##### 2) Write a description and click on "Create fork" button.
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Step2.jpg" width="50%">
+
+##### 3) You will see the fork on your Github account.
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Step3.jpg" width="50%">
+
+##### 4) Clone your fork in Keil Studio Cloud.
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Step4.jpg" width="50%">
+
+##### 5) When you are ready to save the changes, select "Stage All Changes".
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Step5.jpg" width="30%">
+
+##### 6) Next, select commit and enter a description message.
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Step6.jpg" width="30%">
+
+##### 7) Next, commit the changes to your repository.
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Step7.jpg" width="30%">
+
+##### 8) Finally, push the changes to your repository.
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Step8.jpg" width="45%">
+
+
+---
+
 ### Comment regarding Code 1.1
 
 It is worthy to mention that line 15 of Code 1.1:
