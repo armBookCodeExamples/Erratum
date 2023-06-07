@@ -6,6 +6,28 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 
 ### 1.2.3 Getting Ready to Program the First Implementation of the Smart Home System
 
+Some USB cables are able to supply power but not data link, while other USB cables can provide both. The NUCLEO board indicates whether the USB cable is appropriate to be used to load the program onto the board or not, as shown in these videos: 
+
+<div align="left">
+      <a href="https://www.youtube.com/watch?v=3_Q2ejlwJ04">
+         <img src="https://img.youtube.com/vi/3_Q2ejlwJ04/0.jpg" style="width:25%;">
+      </a>
+</div>
+
+Video credits: María Carina Roldán.
+
+<div align="left">
+      <a href="https://www.youtube.com/watch?v=kiywIUJCdq0">
+           <img src="https://img.youtube.com/vi/kiywIUJCdq0/0.jpg" style="width:25%;">
+      </a>
+</div>
+
+Video credits: María Carina Roldán.
+
+---
+
+### 1.2.3 Getting Ready to Program the First Implementation of the Smart Home System
+
 Due to Keil Studio Cloud change from "Import Project" to "Clone" that was made after the textbook was published, the following text:
 
 > First, the reader must copy the URL of the repository of the “Subsection 1.2.3” program that is available in [10]. Then, in the “File” menu of Keil Studio Cloud, select **“Import project”**. **The “Import project” window will be displayed in the web browser. Press “Add project” without modifying any of the configurations,** and a new project named “Subsection 1.2.3” will be added to the list of available projects as the active project.
