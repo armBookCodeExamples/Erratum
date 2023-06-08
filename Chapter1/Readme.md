@@ -51,7 +51,7 @@ In order to be able to save the changes you made to programs in Keil Studio Clou
 ##### 3) You will see the fork on your Github account.
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Step3.jpg" width="50%">
 
-##### 4) Clone your fork in Keil Studio Cloud.
+##### 4) Clone your fork in Keil Studio Cloud by copying the URL from your repository.
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Step4.jpg" width="50%">
 
 ##### 5) When you are ready to save the changes, select "Stage All Changes".
@@ -60,7 +60,7 @@ In order to be able to save the changes you made to programs in Keil Studio Clou
 ##### 6) Next, select commit and enter a description message.
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Step6.jpg" width="30%">
 
-##### 7) Next, commit the changes to your repository.
+##### 7) Next, select commit again to commit the changes to your repository.
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Step7.jpg" width="30%">
 
 ##### 8) Finally, push the changes to your repository.
