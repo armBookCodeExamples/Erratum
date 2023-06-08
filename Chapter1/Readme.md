@@ -64,7 +64,7 @@ In order to be able to save the changes you made to programs in Keil Studio Clou
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Step7.jpg" width="30%">
 
 ##### 8) Finally, push the changes to your repository.
-<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Step8.jpg" width="45%">
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Step8b.jpg" width="45%">
 
 
 ---
