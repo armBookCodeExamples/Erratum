@@ -4,6 +4,43 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 
 ---
 
+### 2.2.1 Connect the Smart Home System to a PC
+
+In this section it is stated:
+
+> **NOTE:** At the time of writing this book, the serial terminal embedded in Keil Studio
+Cloud does not support ST devices. When Keil Studio Cloud includes serial terminal
+support for ST devices, the corresponding instructions will be published in [1]. In that
+way the reader will be able to use Keil Studio Cloud to test the programs used in this
+book and will not have to download and install a separate serial terminal
+
+Serial terminal support for ST devices was added on Keil Studio Cloud 1.6.6 on April 2023.
+
+To use the serial terminal follow the next steps:
+
+##### 1) Select "Open serial monitor".
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Step1.jpg" width="40%">
+
+##### 2) Allow ST-Link VCP to connect to the serial port.
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Step2.jpg" width="40%">
+
+##### 3) Open serial communication.
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Step3.jpg" width="40%">
+
+##### 4) Allow again ST-Link VCP to connect to the serial port.
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Step4.jpg" width="40%">
+
+##### 5) Select the baud rate configuration menu.
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Step5.jpg" width="40%">
+
+##### 6) Configure the appropriate baud rate.
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Step6.jpg" width="40%">
+
+##### 7) The serial monitor tab should start working.
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Step7.jpg" width="40%">
+
+---
+
 ### Code 2.16
 
 The implementation of the command "4" accepts a code even if the alarm is not active.
