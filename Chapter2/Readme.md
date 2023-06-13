@@ -14,7 +14,7 @@ support for ST devices, the corresponding instructions will be published in [1].
 way the reader will be able to use Keil Studio Cloud to test the programs used in this
 book and will not have to download and install a separate serial terminal
 
-Serial terminal support for ST devices was added on Keil Studio Cloud 1.6.6 on April 2023.
+However, serial terminal support for ST devices was added on Keil Studio Cloud 1.6.6 on April 2023.
 
 To use the serial terminal follow the next steps:
 
