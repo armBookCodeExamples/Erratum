@@ -4,6 +4,18 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 
 ---
 
+### Figure 3.9
+
+The labels on the 4 pin header are not properly placed in Figure 3.9. They should be as follows:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter3/Figure3-9.png" width="600">
+
+Also, the caption of Figure 3.9 in misleading, because the figure is not a connection diagram, but a render of MQ-2 gas sensor. 
+
+By last, in the text the LED is refered as "DO-LED" and that is incorrect, because the corresponding label is "DOUT_LED".
+
+---
+
 ### Example 3.1 - Discussion of the Proposed Solution
 
 In the step "Discussion of the Proposed Solution" of Example 3.1 it is stated:
