@@ -8,7 +8,7 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 
 The labels on the 4 pin header are not properly placed in Figure 3.9. They should be as follows:
 
-<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter3/Figure3-9.png" width="600">
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter3/Figure3-9b.png" width="600">
 
 Also, the caption of Figure 3.9 in misleading, because the figure is not a connection diagram, but a render of MQ-2 gas sensor. 
 
