@@ -31,6 +31,15 @@ Although there is no error in doing it this way, many times it leads to confusio
 
 ---
 
+### Code 3.1
+
+Two comments about this code:
+
+1) It is arguable that a function named "*alarmActivationUpdate*" includes the statement *alarmLed = OFF;* (line 21). This statement might be better placed in the function "*alarmDeactivationUpdate()*". 
+2) It should be noticed that no changes are introduced in *alarmDeactivationUpdate()*.
+
+---
+
 ### Table 3.5
 
 The following text:
