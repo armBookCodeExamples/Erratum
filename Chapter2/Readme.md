@@ -41,6 +41,18 @@ To use the serial terminal follow the next steps:
 
 ---
 
+### Example 2.1
+
+The Test the Proposed Solution on the Board section states:
+
+> Read the message that appears on the serial terminal summarizing the list of available commands.
+
+No message will appear until a key different than “1” is pressed. To show the list of available commands at the beggining of the program, the function *availableCommands()* should be included in the *inputsInit()* function:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/AvailableCommands.png" width="600">
+
+---
+
 ### Code 2.16
 
 The implementation of the command "4" accepts a code even if the alarm is not active.
