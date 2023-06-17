@@ -76,7 +76,7 @@ Notice that if five incorrect codes are entered then the System Blocked LED will
 
 ### Code 2.18
 
-The message that is printed by this code states **"In each case type 1 for pressed or 0 for not pressed"**. However, if any character different than 1 is typed,the program will assign 0 to the corresponding position of *codeSequence* (see lines 19 to 23 of Code 2-18). For example, if it is typed "1", "1", "1", "Z", *codeSequence* will be assigned 1,1,1,0.
+The message that is printed by this code states **"In each case type 1 for pressed or 0 for not pressed"**. However, if any character different than 1 is typed, the program will assign 0 to the corresponding position of *codeSequence* (see lines 19 to 23 of Code 2-18). For example, if it is typed "1", "1", "1", "Z", *codeSequence* will be assigned 1,1,1,0.
 
 
 
