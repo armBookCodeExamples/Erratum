@@ -37,7 +37,7 @@ To use the serial terminal follow the next steps:
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Step6.jpg" width="40%">
 
 ##### 7) The serial monitor tab should start working.
-<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Step7.jpg" width="40%">
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Step7b.jpg" width="40%">
 
 ---
 
