@@ -33,10 +33,10 @@ To use the serial terminal follow the next steps:
 ##### 5) Select the baud rate in the tab that comes up automatically.
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Step5.jpg" width="40%">
 
-##### 6) Configure the appropriate baud rate.
+##### 6) A message indicates the baud rate that was used to open the serial communication.
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Step6.jpg" width="40%">
 
-##### 7) The serial monitor tab should start working.
+##### 7) The serial monitor tab should start working (the message shown will depend on the NUCLEO board program code).
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Step7b.jpg" width="40%">
 
 ---
