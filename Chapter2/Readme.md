@@ -53,6 +53,16 @@ No message will appear until a key different than “1” is pressed. To show th
 
 ---
 
+### Code 2.13
+
+It is important to notice that if the alarm is activated by means of the button connected to D2 or D3, the button is then released, and finally keys “1”, “2” and “3” are pressed (one after the other), the following messages wil be printed on the serial monitor window:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Code2-13.jpg" width="40%">
+
+In this way it is shown that the alarm is still activated even that the sensor that triggered the alarm is not active anymore.
+
+---
+
 ### Code 2.16
 
 The implementation of the command "4" accepts a code even if the alarm is not active.
