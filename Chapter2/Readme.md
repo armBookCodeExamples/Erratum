@@ -30,7 +30,7 @@ To use the serial terminal follow the next steps:
 ##### 4) Allow again ST-Link VCP to connect to the serial port.
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Step4.jpg" width="40%">
 
-##### 5) Select the baud rate configuration menu.
+##### 5) Select the baud rate in the tab that comes up automatically.
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter2/Step5.jpg" width="40%">
 
 ##### 6) Configure the appropriate baud rate.
