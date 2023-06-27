@@ -80,11 +80,22 @@ Should be replaced by:
 
 ---
 
+### Text before Figure 6.24
+
+The following text:
+
+> Figure 6.24 shows the sequence to write the port pins value of the PCF8574 LCD module. The first four bits of the address, 1000, are fixed and cannot be changed. The next three bits, 111, correspond to A2, A1, and A0, as explained above. The last bit, 0, indicates that it is a write operation. In this way, the 8-bit address value **0b10001110** is obtained, which corresponds to 78 (in decimal notation). Lastly, it can be seen in Figure 6.24 that the port pin values are written (P7–P0). In this way, the display pins D7–D4, A, E, R/W, and RS are established.
+
+Should be replaced by:
+
+> Figure 6.24 shows the sequence to write the port pins value of the PCF8574 LCD module. The first four bits of the address, 1000, are fixed and cannot be changed. The next three bits, 111, correspond to A2, A1, and A0, as explained above. The last bit, 0, indicates that it is a write operation. In this way, the 8-bit address value **0b01001110** is obtained, which corresponds to 78 (in decimal notation). Lastly, it can be seen in Figure 6.24 that the port pin values are written (P7–P0). In this way, the display pins D7–D4, A, E, R/W, and RS are established.
+
+---
 ### Figure 6.24
 
 The figure should be as follows:
 
-<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Figure%206-24.png" width="800">
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Figure%206-24b.png" width="800">
 
 ---
 
