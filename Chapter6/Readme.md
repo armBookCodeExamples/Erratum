@@ -105,6 +105,8 @@ Using a logic analyzer (as the one shown in Figure 2.14) the signal shown in Fig
 
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/i2cCapture.png" width="800">
 
+Notice: it can be seen that the signal value shown in Figure 6.24 between ACK and P7 is not correct.
+
 ---
 
 ### Figure 6.26
