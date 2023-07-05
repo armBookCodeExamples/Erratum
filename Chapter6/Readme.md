@@ -123,6 +123,8 @@ Using a logic analyzer (as the one shown in Figure 2.14) the signal shown in Fig
 
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/SPICapture.png" width="800">
 
+Notice: there are some differences between Figure 6.28 and the signal captured using the logic analyzer.
+
 ---
 
 ### Text before Figure 6.33
