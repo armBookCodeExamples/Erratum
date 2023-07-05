@@ -99,11 +99,27 @@ The figure should be as follows:
 
 ---
 
+### Figure 6.24 obtained using a logic analyzer
+
+Using a logic analyzer (as the one shown in Figure 2.14) the signal shown in Figure 6.24 can be obtained:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/i2cCapture.png" width="800">
+
+---
+
 ### Figure 6.26
 
 The figure should be as follows:
 
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Figure%206-26.png" width="800">
+
+---
+
+### Figure 6.28 obtained using a logic analyzer
+
+Using a logic analyzer (as the one shown in Figure 2.14) the signal shown in Figure 6.28 can be obtained:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/SPICapture.png" width="800">
 
 ---
 
