@@ -4,6 +4,14 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 
 ---
 
+### Figure 6.4
+
+In Figure 6.4 it is missing the D0 label on pin 32 of CN11. The correct scheme is as follows:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter6/Figure%206-4.png" width="600">
+
+---
+
 ### Code 6.13
 
 The following code:
