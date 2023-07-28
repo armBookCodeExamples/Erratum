@@ -169,7 +169,7 @@ The following lines:
 
 > 29  spiSt7920.unlock();
 
-Are useful only when the program use mutual exclusion ("Mutex", which is a property of concurrency control).
+Are useful only when the program uses mutual exclusion ("Mutex", which is a property of concurrency control).
 
 Given that in this example mutual exclusion is not used, because it is not necessary, these two lines are useless.
 
