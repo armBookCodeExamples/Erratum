@@ -161,6 +161,20 @@ Given that the signal is named Subordinate Select (see Table 6.8). However, in m
 
 ---
 
+### Code 6.36
+
+The following lines:
+
+> 16  spiSt7920.lock();
+
+> 29  spiSt7920.unlock();
+
+Are useful only when the program use mutual exclusion ("Mutex", which is a property of concurrency control).
+
+Given that in this example mutual exclusion is not used, because it is not necessary, these two lines are useless.
+
+---
+
 ### Code 6.41 and Code 6.45
 
 An image is missing in the book of "Report page" in the graphic display. The figure should be as follows:
