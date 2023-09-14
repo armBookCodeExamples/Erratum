@@ -77,6 +77,15 @@ In Chapter 3 it has already been used the reserved word *static* on line 3 of Co
 
 ### Table 5.15
 
+In the book the reserved word *static* is missing in the following two lines:
+
+* **static** float lm35TemperatureC = 0.0;
+* **static** float lm35ReadingsArray[LM35_NUMBER_OF_AVG_SAMPLES];
+
+---
+
+### Table 5.15
+
 A discussion on the the few public variables that are shown in Table 5.15 is available in section 5.4.2, around Table 5.19. 
 
 ---
