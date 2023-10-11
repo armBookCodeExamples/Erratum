@@ -117,6 +117,18 @@ Notice: it can be seen that the signal value shown in Figure 6.24 between ACK an
 
 ---
 
+### Code 6.28
+
+In line 68 instead of:
+
+> i2c_pcf8574.write( pcf8574.address, &pcf8574.data, 1);
+
+Should be:
+
+> i2cPcf8574.write( pcf8574.address, &pcf8574.data, 1);
+
+---
+
 ### Figure 6.26
 
 The figure should be as follows:
