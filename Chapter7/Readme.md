@@ -34,6 +34,18 @@ Notice that this FSM is implemented from Code 7.9 to Code 7.12. Also notice that
 
 ---
 
+### Example 7.3
+
+The objective might be changed from:
+
+> Introduce the reading of a PIR sensor using interrupts.
+
+To:
+
+> Introduce the reading of a PIR sensor using interrupts, configure different interrupts associated with the same signal, disable an interrupt service routine using program code.
+
+---
+
 ### Code 7.18
 
 Code 7.18 is already explained using Figure 7.11 and the text in pages 322 to 324, however a more detailed explanation will be included here soon.
