@@ -20,6 +20,18 @@ The text should be:
 
 ---
 
+### Example 10.4 - Implementation of the Proposed Solution
+
+Given the new version of Example 8.1, the text:
+
+> This function is based on a ticker, in a very similar way to the brightControlInit() function that was introduced in Example 8.1, as discussed below. 
+
+Should be:
+
+> This function is based on a ticker, in a very similar as in Example 8.1, as discussed below. 
+
+---
+
 Pending items to be considered in a future:
 - Code 10.14: resaltar que debo inicializar el ticker.
 - Code 10.14: resaltar que puede haber varias nonBlockingDelayInit() asociadas a una sola tickInit()
