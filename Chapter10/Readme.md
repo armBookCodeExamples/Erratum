@@ -32,12 +32,28 @@ Should be:
 
 ---
 
-Pending items to be considered in a future:
-- Code 10.14: resaltar que debo inicializar el ticker.
-- Code 10.14: resaltar que puede haber varias nonBlockingDelayInit() asociadas a una sola tickInit()
-- Code 10.17: Mostrar cálculo de cuánto es el máximo de uint64_t si contamos cada 1 ms.
-- Code 10.17: Comentar que  poner directamente uint64t en lugar de tick_t podría ser una opción.
-- Code 10.16: mencionar que nonBlockingDelayWrite() se podría borrar, pero se usa en el Chapter 11.
-- Code 10.16: Explicar que puede haber varias nonBlockingDelayRead()
-- Code 10.16: Explicar que nonBlockingDelayRead() también lo arranca; eso quizás se podría hacer en nonBlockingDelayStart()
-- Code 10.18: en lugar de durationMs para ser consistente debería/podría ser durationValue
+### Code 10.15
+
+The declaration of the public data type *tick_t* used in line 8 in the declaration of the variable *tickCounter* is introduced in Code 10.17 as:
+
+> typedef uint64_t tick_t;
+
+The usage of uint64_t allows to account for 18446744073709551616 ms, what is equivalent to 584942417 years.  
+
+---
+
+### Code 10.16
+
+The function nonBlockingDelayWrite() is not used in Chapter 10, but it is used many times in Chapter 11.
+
+Notice there can be many instances of nonBlockingDelayRead(), each associated to different variables of type nonBlockingDelay_t.
+
+Also notice that nonBlockingDelayRead() starts the counting of the delay (line 21).
+
+---
+
+### Code 10.18
+
+It would be better to name "durationMs" as "durationValue", to be consistent with the naming used in the previous codes.
+
+---
