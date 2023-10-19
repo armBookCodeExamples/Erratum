@@ -77,3 +77,15 @@ Also notice that nonBlockingDelayRead() starts the counting of the delay (line 2
 It would be better to name "durationMs" as "durationValue", to be consistent with the naming used in the previous codes.
 
 ---
+
+### New version of Example 10.4
+
+A new version of the non blocking delay implemented using object oriented programming is discussed here: [link](https://docs.google.com/presentation/d/1Nes_BPloZ3bdxhGMeBiJbHekbNqZmXbV/edit#slide=id.g1e95a0fcaa6_0_34) 
+
+By now, the explanation is in Spanish, but it can be translated into English using free tools, as Google Translator.
+
+The corresponding code is available in this repository: [link](https://github.com/alutenberg/example_10-4-Non-Blocking-Delay-Object/tree/master)
+
+We consider it to be very convenient to use this new version of the example in any course based on the book. 
+
+---
