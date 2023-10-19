@@ -32,6 +32,26 @@ Should be:
 
 ---
 
+### Table 10.10
+
+This declaration:
+
+> static nonBlockingDelay_t smartHomeSystemDelay;
+
+Should not be in the section *"Declaration and initialization of public global objects"*, but in the section *"Declaration and initialization of private global objects"*, because *nonBlockingDelay_t* is not an object, but a user defined data type, and this variable is declared as private by means of the reserved word *static*. 
+
+---
+
+### Code 10.15
+
+On line 7 it is declared:
+
+> static Ticker ticker;
+
+This line should not be in the section *"Declaration and initialization of private global variables"*, but in a section *"Declaration and initialization of private global objects"*, because Ticker is not a data type, but an object class, and it is declared as private by means of the reserved word *static*. 
+
+---
+
 ### Code 10.15
 
 The declaration of the public data type *tick_t* used in line 8 in the declaration of the variable *tickCounter* is introduced in Code 10.17 as:
