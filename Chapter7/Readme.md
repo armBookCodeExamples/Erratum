@@ -1,4 +1,4 @@
-## Chapter 7 Erratum
+xº## Chapter 7 Erratum
 
 The following comments refer to the file [arm-designing-embedded-system-application-on-cortex-m.pdf](https://armkeil.blob.core.windows.net/developer/Files/pdf/ebook/arm-designing-embedded-system-application-cortex-m.pdf)
 
@@ -49,6 +49,18 @@ To:
 ### Code 7.18
 
 Code 7.18 is already explained using Figure 7.11 and the text in pages 322 to 324, however a more detailed explanation will be included here soon.
+
+---
+
+### New version of Example 7.3
+
+A new version of Example 7.3 is discussed here: [link](https://docs.google.com/presentation/d/14SRO7-GlrJdRlLTLZZcAXJT6EmPXtnlv/edit?pli=1#slide=id.g22e61df9a0a_1_473) and here: [link](https://docs.google.com/document/d/1K_GC4ALW6MTrbxhSVuZYqWkZdckkFsQCgjwE_RUhK2Q/edit?usp=sharing)
+
+By now, the explanation is in Spanish, but it can be translated into English using free tools, as Google Translator.
+
+The corresponding code is available in this repository: [link](https://github.com/alutenberg/example_7-3)
+
+We consider it to be very convenient to use this new version of the example in any course based on the book. 
 
 ---
 
