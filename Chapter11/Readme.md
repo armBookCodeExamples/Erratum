@@ -14,6 +14,14 @@ All this is explained here: [link](https://docs.google.com/presentation/d/1LC9KG
 
 ---
 
+### Caption of Figure 11.18
+
+The text should be:
+
+> The ESP-01 module indicates that 52 bytes were received correctly
+
+---
+
 ### Example 11.1
 
 A diagram of the FSM that is implemented in this example is available here: [link](https://docs.google.com/presentation/d/1LC9KGRfBXfGQugeZ5rdJuvzB9CJMEDoq/edit?pli=1#slide=id.g2448787e015_0_780).
