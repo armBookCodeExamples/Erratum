@@ -30,13 +30,13 @@ It might be a good idea to include at this point an schematic diagram of the cir
 
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter12/Schematic-Diagram.png" width="600">
 
---
+---
 
 ### Figure 12.3
 
 There is a GND connection missing in the breadboard. The missing connection is shown in this figure:
 
-<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter12/Figure12-3" width="600">
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter12/Figure12-3.png" width="600">
 
 ---
 
