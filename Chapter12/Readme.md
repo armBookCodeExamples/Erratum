@@ -112,6 +112,18 @@ Is not absolutely precise, because the new version of Example 3-5 uses a Digital
 
 ---
 
+### Code 12.25
+
+The following lines are incorrect:
+
+> //=====[Declaration and initialization of public global objects]===============
+>
+> static DigitalInOut relayControlPin(PF_2);
+
+Given that *relayControlPin* is declared using the reserved word +static*, it is not public, but private.
+
+---
+
 ### Explanation of Code 12.25
 
 Instead of:
