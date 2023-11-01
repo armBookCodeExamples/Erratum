@@ -44,6 +44,16 @@ It might be a good idea to include at this point an schematic diagram of the cir
 
 ---
 
+### Table 12.18 ###
+
+Some elements are missing in the Bill of materials, as for example:
+- 10 kΩ trimpot/potentiometer
+- 1 kΩ resistor
+
+However, these elements do not significantly alter the total cost.
+
+---
+
 ### Example 12.4
 
 Maybe it is better to change the order in the explanation.
