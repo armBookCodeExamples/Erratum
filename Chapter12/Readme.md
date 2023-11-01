@@ -24,23 +24,19 @@ A requirement is missing
 
 ---
 
-### Text in Table 12.30
-
-Instead of:
-
-> "*waitedTimeMustBeReset* and ***waitedTimeMustBeReset*** are set to true."
-
-The text should be:
-
-> "*waitedTimeMustBeReset* and ***irrigatedTimeMustBeReset*** are set to true."
-
----
-
 ### Example 12.3
 
 It might be a good idea to include at this point an schematic diagram of the circuit: _"a designed representation of the elements of a system using abstract, graphic symbols rather than realistic pictures"_, which is used extensively in electronics. For example, the following figure is a schematic diagram of an electronic design whose propose is not relevant to discuss here:
 
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter12/Schematic-Diagram.png" width="600">
+
+--
+
+### Figure 12.3
+
+There is a GND connection missing in the breadboard. The missing connection is shown in this figure:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter12/Figure12-3" width="600">
 
 ---
 
@@ -73,6 +69,18 @@ It could be:
 > *Figure 12.8 to Figure 12.11 Layout of the LCD.*
 > *Table 12.20 to Table 12.25 Private objects and variables of the modules.*
 > *Table 12.26 to Table 12.32 Public functions of the modules.*
+
+---
+
+### Text in Table 12.30
+
+Instead of:
+
+> "*waitedTimeMustBeReset* and ***waitedTimeMustBeReset*** are set to true."
+
+The text should be:
+
+> "*waitedTimeMustBeReset* and ***irrigatedTimeMustBeReset*** are set to true."
 
 ---
 
