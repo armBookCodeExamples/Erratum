@@ -102,6 +102,12 @@ Notice that in this program there is no need for a debounce on lines 38, 45, and
 
 ---
 
+### Code 12.8
+
+In lines 5 and 7 a local copy of some varriables are made. This approach has a drawback: many copies of the same information are generated. An alternative approach to obtain the same result can be to use constant pointers to the variables, instead of copying the variables.
+
+---
+
 ### Note on Code 12.16
 
 Regarding:
