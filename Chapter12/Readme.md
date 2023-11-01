@@ -100,6 +100,18 @@ The text should be:
 
 ---
 
+### Tip on Code 12.27
+
+Instead of:
+
+> TO_HOUR
+
+The text should be:
+
+> TO_HOURS
+
+---
+
 ### Example 12.9 - Example of verification
 
 An example of verification could be if a requirement is defined as 
