@@ -4,12 +4,101 @@ The following comments refer to the file [arm-designing-embedded-system-applicat
 
 ---
 
-Pending items to be considered in a future:
+### Explanation of Table 12.4
 
-- PPTX: página 14. En el libro esto está en la parte de discusión. Me parece que quizás haya que pasarlo a la parte de implementación.
-- Table 12.4: revisar caption y revisar este texto: "The reader should note that alongside each is a simplified approach that is appropriate for many projects"
-- Mejorar explicación de sensor de distancia HC-SR04
-- Table 12.28: en irrigationControlInit() uno de los dos es irrigatedTime
-- PPTX: página 74, Repensar a futuro: ¿no es mejor empezar este paso por la FSM?
-- Code 12.25: errata dice "Finally, the function relayRead() is shown on lines 57 to 61" y debería ser 58 to 60.
-- Figure 12.14: Incluir el código del sensor y revisar el label "SCA".
+For the sake of clarity, instead of:
+
+> "The reader should note that alongside each is a simplified approach that is appropriate for many projects"
+
+The text could be:
+
+> "The reader should note that alongside each **element** is a simplified approach that is appropriate for many projects"
+
+---
+
+### Text in Table 12.30
+
+Instead of:
+
+> "*waitedTimeMustBeReset* and ***waitedTimeMustBeReset*** are set to true."
+
+The text should be:
+
+> "*waitedTimeMustBeReset* and ***irrigatedTimeMustBeReset*** are set to true."
+
+---
+
+### Example 12.4
+
+Maybe it is better to change the order in the explanation.
+
+Instead of:
+
+> *Table 12.19 Functionalities and roles of the home irrigation system modules.*
+> *Table 12.20 to Table 12.25 Private objects and variables of the modules.*
+> *Table 12.26 to Table 12.32 Public functions of the modules.*
+> *Figure 12.7 Diagram of the proposed FSM.*
+> *Figure 12.8 to Figure 12.11 Layout of the LCD.*
+
+It could be:
+
+> *Table 12.19 Functionalities and roles of the home irrigation system modules.*
+> *Figure 12.7 Diagram of the proposed FSM.*
+> *Figure 12.8 to Figure 12.11 Layout of the LCD.*
+> *Table 12.20 to Table 12.25 Private objects and variables of the modules.*
+> *Table 12.26 to Table 12.32 Public functions of the modules.*
+
+---
+
+### Code 12.5
+
+Notice that in this program there is no need for a debounce on lines 38, 45, and 52 because the loop is executed every 100 miliseconds, as illustrated in Figure 12.4
+
+---
+
+### Note on Code 12.16
+
+Regarding:
+
+> **NOTE**: This same type of initialization and use was implemented in previous chapters to control the buzzer using the relay, given that buzzers are 5 V devices, and it is not advised to turn them on directly using a digitalOut object.
+
+Is not absolutely precise, because the new version of Example 3-5 uses a DigitalOut object and a relay. The important fact is that a transistor is used in the new setup.
+
+---
+
+### Explanation of Code 12.25
+
+Instead of:
+
+> "Finally, the function *relayRead()* is shown on lines **57 to 61**"
+
+The text should be:
+
+> "Finally, the function *relayRead()* is shown on lines **58 to 60**"
+
+---
+
+### Explanation of Figure 12.12 (working principle of HC-SR04 ultrasonic module)
+
+Instead of:
+
+> "The Trig pin is used to trigger a high-frequency sound. When the signal is reflected, the echo pin changes its state. The time between the transmission and reception of the signal allows us to calculate the distance to an object,..."
+
+The text could be:
+
+> "The Trig pin is used to trigger a high-frequency sound (a 40 kHz acoustic burst). The echo pin changes its state while this acoustic burst is travelling in between the sensor and the object to be detected. The time between the transmission and reception of the signal allows us to calculate the distance to an object,..."
+
+This is shown in the following figure:
+
+The formulae to be used to calculate the distance is:
+
+> Distance in centimeters = echo_pulse_time(&micro;s)/58  
+> Distance in inches = echo_pulse_time(&micro;s)/148
+
+For example:
+
+> 10 centimeters = echo_pulse_time of 580 &micro;s
+
+---
+
+
