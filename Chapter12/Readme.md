@@ -16,6 +16,14 @@ The text could be:
 
 ---
 
+### Table 12.6
+
+A requirement is missing
+
+> "4.1.3 Show the current moisture level"
+
+---
+
 ### Text in Table 12.30
 
 Instead of:
@@ -25,6 +33,14 @@ Instead of:
 The text should be:
 
 > "*waitedTimeMustBeReset* and ***irrigatedTimeMustBeReset*** are set to true."
+
+---
+
+### Example 12.3
+
+It might be a good idea to include at this point an schematic diagram of the circuit: _"a designed representation of the elements of a system using abstract, graphic symbols rather than realistic pictures"_, which is used extensively in electronics. For example, the following figure is a schematic diagram of an electronic design whose propose is not relevant to discuss here:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter12/Schematic-Diagram.png" width="600">
 
 ---
 
@@ -48,6 +64,12 @@ It could be:
 > *Table 12.20 to Table 12.25 Private objects and variables of the modules.*
 > *Table 12.26 to Table 12.32 Public functions of the modules.*
 
+---
+
+### Figure 12.9
+
+Current moisture level should be below 30% (it says 40%); otherwise the system will not irrigate.
+  
 ---
 
 ### Code 12.5
@@ -78,6 +100,17 @@ The text should be:
 
 ---
 
+### Example 12.9 - Example of verification
+
+An example of verification could be if a requirement is defined as 
+
+> "all the software modules must be properly encaspsulated"
+
+Then in the verification it can be assessed if this requirement is fullfiled.
+However, the user will not care about this, neither it will asses this requirement.
+
+---
+
 ### Explanation of Figure 12.12 (working principle of HC-SR04 ultrasonic module)
 
 Instead of:
@@ -90,6 +123,8 @@ The text could be:
 
 This is shown in the following figure:
 
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter12/HCSR04-Signals.png" width="600">
+
 The formulae to be used to calculate the distance is:
 
 > Distance in centimeters = echo_pulse_time(&micro;s)/58  
@@ -101,4 +136,17 @@ For example:
 
 ---
 
+### Figure 12.14
+
+Instead of:
+
+> "SCA"
+
+The label should be
+
+> "SDA"
+
+Also, is worth mentioning that the digital barometric pressure module shown in Figure 12.14 is BMP180.
+
+---
 
