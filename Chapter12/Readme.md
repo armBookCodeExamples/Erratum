@@ -38,6 +38,12 @@ There is a GND connection missing in the breadboard. The missing connection is s
 
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter12/Figure12-3.png" width="600">
 
+Also, if the system doesn't work fine, it is recommended to include a diodo in the solenoid, as follows:
+
+<img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter12/Solenoid-Diode.png" width="200">
+
+By last, if the system doesn't work fine it is suggested to use a independent 5 V power source to supply the relay module.
+
 ---
 
 ### Table 12.18 ###
