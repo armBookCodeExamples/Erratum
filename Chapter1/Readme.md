@@ -38,7 +38,9 @@ Should be replaced by:
 
 ---
 
-### 1.2.3 Getting Ready to Program the First Implementation of the Smart Home System
+### Example 1.1: Activate the Alarm When Gas is Detected
+
+#### Test the Proposed Solution on the Board 
 
 In order to be able to save the changes you made to programs in Keil Studio Cloud you should have a [Github](https://github.com/) account and follow these steps:
 
@@ -65,6 +67,8 @@ In order to be able to save the changes you made to programs in Keil Studio Clou
 
 ##### 8) Finally, push the changes to your repository.
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter1/Step8b.jpg" width="45%">
+
+Import the project “Example 1.1” using the steps outlined above, build the project, and drag the .bin file onto the NUCLEO board. Then press and release the button connected to pin D2 and look at the behavior of LD1. The LED should turn on when the button is pressed and turn off when the button is released.
 
 
 ---
