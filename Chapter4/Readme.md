@@ -32,7 +32,7 @@ When following this instruction:
 
 > Press the “s” key and follow the instructions to set the current date and time for the RTC.
 
-You may find that in the Keil Studio Cloud serial monitor, two characters will be echoed rather than one, as expected. For example, to set the year, you may type “2024” but find the serial monitor prints “22002244”, as shown below:
+You may find that in the Keil Studio Cloud serial monitor, two characters will be echoed rather than one. For example, to set the year, you may type “2024” but find the serial monitor prints “22002244”, as shown below:
 
 <img src="https://github.com/armBookCodeExamples/Erratum/blob/main/Chapter4/Erratum_section422.png" width="45%">
 
