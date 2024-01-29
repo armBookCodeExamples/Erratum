@@ -23,6 +23,21 @@ The projects of the Examples of this new version are available here:
 - https://github.com/armBookCodeExamples/example_4-3-new/
 - https://github.com/armBookCodeExamples/example_4-4-new/
 
+
+---
+
+### 4.2.2 Test the Operation of the Matrix Keypad and RTC
+
+When following this instruction: 
+
+> Press the “s” key and follow the instructions to set the current date and time for the RTC.
+
+You may find that in the Keil Studio Cloud serial monitor, two characters will be echoed rather than one, as expected. For example, to set the year, you may type “2024” but find the serial monitor prints “22002244”, as shown below:
+
+> Acá
+
+This does not affect the process of setting the RTC, and the correct year (2024) will be stored. 
+
 ---
 
 ### Table 4.2
